@@ -1,0 +1,100 @@
+baseURL = 'https://henryyang.pages.dev/'
+languageCode = 'zh-TW'
+title = 'Henry Yang 亨利羊 - AI 工具訓練專家'
+theme = 'PaperMod'
+defaultContentLanguage = 'zh-tw'
+
+# 啟用表情符號支援
+enableEmoji = true
+
+# 分頁設定
+[pagination]
+  pagerSize = 10
+
+[params]
+  # 網站描述
+  description = "AI 工具訓練專家，專精於 AI 工具應用與自動化訓練，讓科技成為您最得力的助手"
+  author = "Henry Yang 亨利羊"
+
+  # 首頁模式
+  homeInfoParams.Title = "讓 AI 工具讓您的工作更輕鬆"
+  homeInfoParams.Content = "我是 Henry Yang 亨利羊，專精於 AI 工具應用與自動化訓練。透過專業的訓練課程，幫助您掌握最新的 AI 工具和自動化技術，提升工作效率。"
+
+  # 社交連結
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:yhlhenry@gmail.com"
+
+  [[params.socialIcons]]
+    name = "line"
+    url = "https://line.me/ti/p/%40kmq1480f"
+
+  # 顯示設定
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  # 搜尋功能
+  fuseOpts.isCaseSensitive = false
+  fuseOpts.shouldSort = true
+  fuseOpts.location = 0
+  fuseOpts.distance = 1000
+  fuseOpts.threshold = 0.4
+  fuseOpts.minMatchCharLength = 0
+  fuseOpts.keys = ["title", "permalink", "summary", "content"]
+
+# 主選單
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首頁"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "services"
+    name = "服務項目"
+    url = "/services/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "關於我"
+    url = "/about/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "聯絡我"
+    url = "/contact/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜尋"
+    url = "/search/"
+    weight = 6
+
+# 輸出格式（搜尋功能需要）
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Markdown 設定
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+
+  [markup.goldmark.renderer]
+    unsafe = true

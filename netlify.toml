@@ -1,0 +1,12 @@
+# 此檔案也適用於 Cloudflare Pages 的建置設定參考
+# Cloudflare Pages 會自動偵測 Hugo 專案
+
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.145.0"
+
+[context.production.environment]
+  HUGO_ENV = "production"

@@ -1,0 +1,17 @@
+# Hugo 產生的檔案
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (如果使用)
+node_modules/
