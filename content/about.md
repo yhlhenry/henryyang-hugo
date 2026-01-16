@@ -2,7 +2,7 @@
 title: "關於我"
 date: 2024-01-01
 draft: false
-showToc: false
+showTableOfContents: false
 ---
 
 ## Henry Yang 亨利羊

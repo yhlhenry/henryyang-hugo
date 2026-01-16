@@ -2,7 +2,7 @@
 title: "聯絡我"
 date: 2024-01-01
 draft: false
-showToc: false
+showTableOfContents: false
 ---
 
 準備開始您的學習之旅了嗎？

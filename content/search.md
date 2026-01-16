@@ -1,5 +1,6 @@
 ---
 title: "搜尋"
 layout: "search"
-placeholder: "搜尋文章..."
 ---
+
+在這裡搜尋網站中的所有內容。

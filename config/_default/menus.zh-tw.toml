@@ -1,0 +1,46 @@
+# -- Main Menu --
+# 主選單設定
+
+[[main]]
+  name = "首頁"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "文章"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "服務項目"
+  pageRef = "services"
+  weight = 30
+
+[[main]]
+  name = "關於我"
+  pageRef = "about"
+  weight = 40
+
+[[main]]
+  name = "聯絡我"
+  pageRef = "contact"
+  weight = 50
+
+[[main]]
+  name = "搜尋"
+  pageRef = "search"
+  weight = 60
+  pre = "search"
+
+# -- Footer Menu --
+# 頁尾選單
+
+[[footer]]
+  name = "關於我"
+  pageRef = "about"
+  weight = 10
+
+[[footer]]
+  name = "聯絡我"
+  pageRef = "contact"
+  weight = 20

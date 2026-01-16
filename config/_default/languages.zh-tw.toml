@@ -1,0 +1,23 @@
+disabled = false
+languageCode = "zh-TW"
+languageName = "繁體中文"
+weight = 1
+title = "Henry Yang 亨利羊 - AI 工具訓練專家"
+
+[params]
+  displayName = "繁中"
+  isoCode = "zh-TW"
+  rtl = false
+  dateFormat = "2006年1月2日"
+  description = "AI 工具訓練專家，專精於 AI 工具應用與自動化訓練，讓科技成為您最得力的助手"
+  copyright = "© 2026 Henry Yang 亨利羊"
+
+[params.author]
+  name = "Henry Yang 亨利羊"
+  email = "yhlhenry@gmail.com"
+  headline = "AI 工具訓練專家"
+  bio = "專精於 AI 工具應用與自動化訓練，幫助您掌握最新的 AI 工具和自動化技術，提升工作效率。"
+  links = [
+    { email = "mailto:yhlhenry@gmail.com" },
+    { line = "https://line.me/ti/p/%40kmq1480f" },
+  ]
