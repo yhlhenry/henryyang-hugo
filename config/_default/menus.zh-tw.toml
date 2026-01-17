@@ -1,5 +1,46 @@
 # -- Main Menu --
-# 主選單設定（目前為空）
+# 主選單設定
+
+[[main]]
+  name = "關於我"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "演講與授課"
+  pageRef = "speaking"
+  weight = 20
+
+[[main]]
+  name = "作品集"
+  pageRef = "portfolio"
+  weight = 30
+
+[[main]]
+  name = "文章"
+  pageRef = "blog"
+  weight = 40
+
+[[main]]
+  name = "聯絡"
+  pageRef = "contact"
+  weight = 50
+
+[[main]]
+  name = "搜尋"
+  pageRef = "search"
+  weight = 60
+  pre = "search"
 
 # -- Footer Menu --
-# 頁尾選單（目前為空）
+# 頁尾選單
+
+[[footer]]
+  name = "關於我"
+  pageRef = "about"
+  weight = 10
+
+[[footer]]
+  name = "聯絡"
+  pageRef = "contact"
+  weight = 20

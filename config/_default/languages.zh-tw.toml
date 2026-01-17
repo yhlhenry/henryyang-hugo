@@ -9,6 +9,16 @@ title = "Henry Yang 亨利羊"
   isoCode = "zh-TW"
   rtl = false
   dateFormat = "2006年1月2日"
+  description = "軟體工程師 / 資訊講師 / 文字創作者"
+  copyright = "© 2025 Henry Yang 亨利羊"
 
 [params.author]
   name = "Henry Yang 亨利羊"
+  # image = "/img/author.jpg"  # 之後加入你的頭像
+  headline = "軟體工程師 / 資訊講師 / 文字創作者"
+  bio = "本業為軟體工程師，同時擔任資訊教學講師，熱愛透過文字分享對技術、哲學與社會的觀點。"
+  links = [
+    { email = "mailto:yhlhenry@gmail.com" },
+    # { github = "https://github.com/yourname" },
+    # { linkedin = "https://linkedin.com/in/yourname" },
+  ]
