@@ -26,12 +26,6 @@
   pageRef = "contact"
   weight = 50
 
-[[main]]
-  name = "搜尋"
-  pageRef = "search"
-  weight = 60
-  pre = "search"
-
 # -- Footer Menu --
 # 頁尾選單
 

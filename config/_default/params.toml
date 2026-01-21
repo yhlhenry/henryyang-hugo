@@ -8,8 +8,8 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-# 背景圖片（之後可替換為你自己的圖片）
-# defaultBackgroundImage = "/img/background.jpg"
+# 背景圖片
+defaultBackgroundImage = "img/background.jpg"
 
 [header]
   layout = "fixed-fill-blur"  # 頂部模糊玻璃效果
@@ -24,8 +24,8 @@ enableCodeCopy = true
 [homepage]
   layout = "background"  # 動態背景模式
   layoutBackgroundBlur = true  # 滾動時背景模糊效果
-  homepageImage = "/img/home-background.jpg"  # 首頁背景圖
-  showRecent = true
+  homepageImage = "img/background.jpg"  # 首頁背景圖
+  showRecent = false
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/blog/"
