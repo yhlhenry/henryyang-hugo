@@ -7,8 +7,8 @@
   weight = 10
 
 [[main]]
-  name = "演講與授課"
-  pageRef = "speaking"
+  name = "提供服務"
+  pageRef = "services"
   weight = 20
 
 [[main]]
