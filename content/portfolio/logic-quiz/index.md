@@ -10,4 +10,3 @@ externalUrl: "https://logic-quiz.henryyang.tw/"
 
 一個測試邏輯思維能力的互動式測驗網站。
 
-🔗 [前往體驗](https://logic-quiz.henryyang.tw/)

@@ -10,4 +10,3 @@ externalUrl: "https://yhlhenry.github.io/fox-ursa-christmas-quiz/"
 
 做給孩子的客製化闖關小遊戲，結合教育與娛樂。
 
-🔗 [前往體驗](https://yhlhenry.github.io/fox-ursa-christmas-quiz/)
